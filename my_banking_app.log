@@ -1,0 +1,196 @@
+2018-08-21 11:44:59 : DEBUG : SHOW_ADD_PAYEE : At show_add_payee!
+2018-08-21 11:45:00 : DEBUG : SHOW_REMOVE_PAYEE : At show_remove_payee!
+2018-08-21 11:45:00 : DEBUG : SHOW_REMOVE_PAYEE : Establishing database connection..
+2018-08-21 11:45:01 : DEBUG : SHOW_DEPOSIT_MONEY : At show_deposit_money!
+2018-08-21 11:45:06 : DEBUG : DO_DEPOSIT : Trying to do deposit..
+2018-08-21 11:45:06 : DEBUG : DO_DEPOSIT : Fetching form values..
+2018-08-21 11:45:06 : ERROR : DO_DEPOSIT : Deposit money error message: None
+2018-08-21 11:45:06 : DEBUG : DO_DEPOSIT : Establishing database connection..
+2018-08-21 11:45:09 : DEBUG : DASHBOARD : At dashboard!
+2018-08-21 11:45:09 : DEBUG : DASHBOARD : In dashboard with active session..
+2018-08-21 11:45:09 : DEBUG : DASHBOARD : Establishing database connection..
+2018-08-21 11:45:09 : DEBUG : DASHBOARD : Welcoming user: kalathi
+2018-08-21 11:48:34 : DEBUG : INDEX.py : At index.py!
+2018-08-21 11:48:36 : DEBUG : DOLOGIN : Trying to login..
+2018-08-21 11:48:36 : DEBUG : DOLOGIN : Fetching form values..
+2018-08-21 11:48:36 : DEBUG : Validator : Validating : root(6-15)
+2018-08-21 11:48:36 : ERROR : DOLOGIN : login validator error message: <p>Login name must be at least 6 characters and  max 15</p>
+2018-08-21 11:48:38 : DEBUG : INDEX.py : At index.py!
+2018-08-21 11:48:44 : DEBUG : DOLOGIN : Trying to login..
+2018-08-21 11:48:44 : DEBUG : DOLOGIN : Fetching form values..
+2018-08-21 11:48:44 : DEBUG : Validator : Validating : kalathi(6-15)
+2018-08-21 11:48:44 : DEBUG : Validator : Validating : password(6-12)
+2018-08-21 11:48:44 : ERROR : DOLOGIN : login validator error message: None
+2018-08-21 11:48:44 : DEBUG : DOLOGIN : Establishing database connection..
+2018-08-21 11:48:44 : DEBUG : DOLOGIN : any_session_active:True
+2018-08-21 11:48:45 : DEBUG : DASHBOARD : At dashboard!
+2018-08-21 11:48:45 : DEBUG : DASHBOARD : In dashboard with active session..
+2018-08-21 11:48:45 : DEBUG : DASHBOARD : Establishing database connection..
+2018-08-21 11:48:45 : DEBUG : DASHBOARD : Welcoming user: kalathi
+2018-08-21 11:48:48 : DEBUG : SHOW_ADD_PAYEE : At show_add_payee!
+2018-08-21 11:49:17 : DEBUG : DO_ADD_PAYEE : Trying to add payee..
+2018-08-21 11:49:17 : DEBUG : DO_ADD_PAYEE : Fetching form values..
+2018-08-21 11:49:17 : DEBUG : Validator : Validating : santha(4-15)
+2018-08-21 11:49:17 : DEBUG : Validator : Validating : TMB(3-10)
+2018-08-21 11:49:17 : DEBUG : Validator : Validating : Alandur(4-10)
+2018-08-21 11:49:17 : DEBUG : Validator : Validating : TMBB001122. Length must be 10 characters.
+2018-08-21 11:49:17 : ERROR : DO_ADD_PAYEE : Add payee validator error message: None
+2018-08-21 11:49:17 : DEBUG : DO_ADD_PAYEE : Establishing database connection..
+2018-08-21 11:49:22 : DEBUG : SHOW_REMOVE_PAYEE : At show_remove_payee!
+2018-08-21 11:49:22 : DEBUG : SHOW_REMOVE_PAYEE : Establishing database connection..
+2018-08-21 11:49:28 : DEBUG : DO_ADD_PAYEE : Trying to add payee..
+2018-08-21 11:49:28 : DEBUG : DO_ADD_PAYEE : Fetching form values..
+2018-08-21 11:49:28 : DEBUG : Validator : Validating : santha(4-15)
+2018-08-21 11:49:28 : DEBUG : Validator : Validating : TMB(3-10)
+2018-08-21 11:49:28 : DEBUG : Validator : Validating : Alandur(4-10)
+2018-08-21 11:49:28 : DEBUG : Validator : Validating : TMBB00112. Length must be 10 characters.
+2018-08-21 11:49:28 : ERROR : DO_ADD_PAYEE : Add payee validator error message: <p>IFSC code must be 10 characters</p><br/><p>IFSC code must be alphanumeric and in pattern: XXXXDDDDDD where X- alphabet and D-Digit.</p>
+2018-08-21 11:49:42 : DEBUG : DO_ADD_PAYEE : Trying to add payee..
+2018-08-21 11:49:42 : DEBUG : DO_ADD_PAYEE : Fetching form values..
+2018-08-21 11:49:42 : DEBUG : Validator : Validating : santha(4-15)
+2018-08-21 11:49:42 : ERROR : DO_ADD_PAYEE : Add payee validator error message: <P>Account number must be greater than 10000 and less than 999999!</p>
+2018-08-21 11:49:52 : DEBUG : DO_ADD_PAYEE : Trying to add payee..
+2018-08-21 11:49:52 : DEBUG : DO_ADD_PAYEE : Fetching form values..
+2018-08-21 11:49:52 : DEBUG : Validator : Validating : santha(4-15)
+2018-08-21 11:49:52 : ERROR : DO_ADD_PAYEE : Add payee validator error message: <P>Account number must be greater than 10000 and less than 999999!</p>
+2018-08-21 11:49:58 : DEBUG : DO_ADD_PAYEE : Trying to add payee..
+2018-08-21 11:49:58 : DEBUG : DO_ADD_PAYEE : Fetching form values..
+2018-08-21 11:49:58 : DEBUG : Validator : Validating : santha(4-15)
+2018-08-21 11:49:58 : DEBUG : Validator : Validating : TM(3-10)
+2018-08-21 11:49:58 : ERROR : DO_ADD_PAYEE : Add payee validator error message: <p>Bank name must be at least 3 characters and  max 10</p>
+2018-08-21 11:50:05 : DEBUG : DO_ADD_PAYEE : Trying to add payee..
+2018-08-21 11:50:05 : DEBUG : DO_ADD_PAYEE : Fetching form values..
+2018-08-21 11:50:05 : DEBUG : Validator : Validating : santha(4-15)
+2018-08-21 11:50:05 : DEBUG : Validator : Validating : TMB(3-10)
+2018-08-21 11:50:05 : DEBUG : Validator : Validating : Alandur(4-10)
+2018-08-21 11:50:05 : DEBUG : Validator : Validating : TMBB00112. Length must be 10 characters.
+2018-08-21 11:50:05 : ERROR : DO_ADD_PAYEE : Add payee validator error message: <p>IFSC code must be 10 characters</p><br/><p>IFSC code must be alphanumeric and in pattern: XXXXDDDDDD where X- alphabet and D-Digit.</p>
+2018-08-21 11:50:16 : DEBUG : DO_ADD_PAYEE : Trying to add payee..
+2018-08-21 11:50:16 : DEBUG : DO_ADD_PAYEE : Fetching form values..
+2018-08-21 11:50:16 : DEBUG : Validator : Validating : santha(4-15)
+2018-08-21 11:50:16 : DEBUG : Validator : Validating : TMB(3-10)
+2018-08-21 11:50:16 : DEBUG : Validator : Validating : Alandur(4-10)
+2018-08-21 11:50:16 : DEBUG : Validator : Validating : TMBB001122. Length must be 10 characters.
+2018-08-21 11:50:16 : ERROR : DO_ADD_PAYEE : Add payee validator error message: None
+2018-08-21 11:50:16 : DEBUG : DO_ADD_PAYEE : Establishing database connection..
+2018-08-21 11:50:20 : DEBUG : DASHBOARD : At dashboard!
+2018-08-21 11:50:20 : DEBUG : DASHBOARD : In dashboard with active session..
+2018-08-21 11:50:20 : DEBUG : DASHBOARD : Establishing database connection..
+2018-08-21 11:50:20 : DEBUG : DASHBOARD : Welcoming user: kalathi
+2018-08-21 11:50:25 : DEBUG : SHOW_REMOVE_PAYEE : At show_remove_payee!
+2018-08-21 11:50:25 : DEBUG : SHOW_REMOVE_PAYEE : Establishing database connection..
+2018-08-21 11:50:29 : DEBUG : DO_REMOVE_PAYEE : Trying to remove payee..
+2018-08-21 11:50:29 : DEBUG : DO_REMOVE_PAYEE : Establishing database connection..
+2018-08-21 11:50:29 : DEBUG : DO_REMOVE_PAYEE : my_db_payees:['payee_1', 'payee_3', 'payee_4']
+2018-08-21 11:50:29 : DEBUG : DO_REMOVE_PAYEE : Fetching HTML form values..
+2018-08-21 11:50:29 : DEBUG : DO_REMOVE_PAYEE : selected_payees_list to remove:['payee_4']
+2018-08-21 11:50:29 : DEBUG : DO_REMOVE_PAYEE : Removing payee payee_4 from payee table..
+2018-08-21 11:50:31 : DEBUG : DASHBOARD : At dashboard!
+2018-08-21 11:50:31 : DEBUG : DASHBOARD : In dashboard with active session..
+2018-08-21 11:50:31 : DEBUG : DASHBOARD : Establishing database connection..
+2018-08-21 11:50:31 : DEBUG : DASHBOARD : Welcoming user: kalathi
+2018-08-21 11:50:33 : DEBUG : SHOW_DEPOSIT_MONEY : At show_deposit_money!
+2018-08-21 11:50:38 : DEBUG : DO_DEPOSIT : Trying to do deposit..
+2018-08-21 11:50:38 : DEBUG : DO_DEPOSIT : Fetching form values..
+2018-08-21 11:50:38 : ERROR : DO_DEPOSIT : Deposit money error message: None
+2018-08-21 11:50:38 : DEBUG : DO_DEPOSIT : Establishing database connection..
+2018-08-21 11:50:40 : DEBUG : SHOW_MONEY_TRANSER : At show_money_transfer!
+2018-08-21 11:51:16 : DEBUG : DO_MONEY_TRANSFER : Trying to do money transfer..
+2018-08-21 11:51:16 : DEBUG : DO_MONEY_TRANSFER : Fetching form values..
+2018-08-21 11:51:16 : DEBUG : DO_MONEY_TRANSFER : Showing menu..
+2018-08-21 11:51:16 : DEBUG : DO_MONEY_TRANSFER : Evaluating input attributes..
+2018-08-21 11:51:16 : DEBUG : Validator : Validating : santh(4-15)
+2018-08-21 11:51:16 : DEBUG : Validator : Validating : TMB(3-10)
+2018-08-21 11:51:16 : DEBUG : Validator : Validating : Alandu(4-10)
+2018-08-21 11:51:16 : DEBUG : Validator : Validating : TMBB001122. Length must be 10 characters.
+2018-08-21 11:51:16 : ERROR : DO_MONEY_TRANSFER : Money transfer validator error message: None
+2018-08-21 11:51:16 : DEBUG : DO_MONEY_TRANSFER : Establishing database connection..
+2018-08-21 11:51:16 : DEBUG : DO_MONEY_TRANSFER : Input attributes seems to be fine. Now validating against DB values..
+2018-08-21 11:51:16 : DEBUG : DO_MONEY_TRANSFER : Checking balance is enough to do transfer or not..
+2018-08-21 11:51:16 : DEBUG : DO_MONEY_TRANSFER : All is well to do the transfer..making it real now..
+2018-08-21 11:51:16 : DEBUG : DO_MONEY_TRANSFER : Deducted from source balance. Fetching udpated balance of source..
+2018-08-21 11:51:16 : DEBUG : DO_MONEY_TRANSFER : Lastly, updating balance of beneficiery if exists in account DB..
+2018-08-21 11:51:16 : DEBUG : DO_MONEY_TRANSFER : UPDATE account SET balance=balance+20000 WHERE acc_number=200007;
+2018-08-21 11:51:16 : DEBUG : DO_MONEY_TRANSFER : All steps of transfer process are done. Final status of transfer_money_failed:False
+2018-08-21 11:51:19 : DEBUG : DASHBOARD : At dashboard!
+2018-08-21 11:51:19 : DEBUG : DASHBOARD : In dashboard with active session..
+2018-08-21 11:51:19 : DEBUG : DASHBOARD : Establishing database connection..
+2018-08-21 11:51:19 : DEBUG : DASHBOARD : Welcoming user: kalathi
+2018-08-21 11:51:32 : DEBUG : INDEX.py : At index.py!
+2018-08-21 11:51:41 : DEBUG : DOLOGIN : Trying to login..
+2018-08-21 11:51:41 : DEBUG : DOLOGIN : Fetching form values..
+2018-08-21 11:51:41 : DEBUG : Validator : Validating : arun123(6-15)
+2018-08-21 11:51:41 : DEBUG : Validator : Validating : welcome(6-12)
+2018-08-21 11:51:41 : ERROR : DOLOGIN : login validator error message: None
+2018-08-21 11:51:41 : DEBUG : DOLOGIN : Establishing database connection..
+2018-08-21 11:51:41 : DEBUG : DOLOGIN : any_session_active:True
+2018-08-21 11:51:42 : DEBUG : DASHBOARD : At dashboard!
+2018-08-21 11:51:42 : DEBUG : DASHBOARD : In dashboard with active session..
+2018-08-21 11:51:42 : DEBUG : DASHBOARD : Establishing database connection..
+2018-08-21 11:51:42 : DEBUG : DASHBOARD : Welcoming user: arun123
+2018-08-21 11:51:49 : DEBUG : INDEX.py : At index.py!
+2018-08-21 11:51:51 : DEBUG : SHOW_RESET_PASSWORD. : At show_reset_password.py!
+2018-08-21 11:52:04 : DEBUG : DO_RESET_PASSWORD : Trying to reset password..
+2018-08-21 11:52:04 : DEBUG : DO_RESET_PASSWORD : Fetching form values..
+2018-08-21 11:52:04 : DEBUG : Validator : Validating : arun123(6-15)
+2018-08-21 11:52:04 : DEBUG : Validator : Validating : password(6-12)
+2018-08-21 11:52:04 : ERROR : DO_RESET_PASSWORD : Reset password validator error message: <P>New password and confirm passwords did not match!</p>
+2018-08-21 11:52:07 : DEBUG : SHOW_RESET_PASSWORD. : At show_reset_password.py!
+2018-08-21 11:52:24 : DEBUG : DO_RESET_PASSWORD : Trying to reset password..
+2018-08-21 11:52:24 : DEBUG : DO_RESET_PASSWORD : Fetching form values..
+2018-08-21 11:52:24 : DEBUG : Validator : Validating : arun123(6-15)
+2018-08-21 11:52:24 : DEBUG : Validator : Validating : password(6-12)
+2018-08-21 11:52:24 : ERROR : DO_RESET_PASSWORD : Reset password validator error message: None
+2018-08-21 11:52:24 : DEBUG : DO_RESET_PASSWORD : Establishing database connection..
+2018-08-21 11:52:26 : DEBUG : SHOW_RESET_PASSWORD. : At show_reset_password.py!
+2018-08-21 11:52:39 : DEBUG : DO_RESET_PASSWORD : Trying to reset password..
+2018-08-21 11:52:39 : DEBUG : DO_RESET_PASSWORD : Fetching form values..
+2018-08-21 11:52:39 : DEBUG : Validator : Validating : arun122(6-15)
+2018-08-21 11:52:39 : DEBUG : Validator : Validating : password(6-12)
+2018-08-21 11:52:39 : ERROR : DO_RESET_PASSWORD : Reset password validator error message: None
+2018-08-21 11:52:39 : DEBUG : DO_RESET_PASSWORD : Establishing database connection..
+2018-08-21 11:52:39 : ERROR : DO_RESET_PASSWORD : Error: No user found with login name 'arun122'
+2018-08-21 11:52:43 : DEBUG : INDEX.py : At index.py!
+2018-08-21 11:52:54 : DEBUG : DOLOGIN : Trying to login..
+2018-08-21 11:52:54 : DEBUG : DOLOGIN : Fetching form values..
+2018-08-21 11:52:54 : DEBUG : Validator : Validating : arun123(6-15)
+2018-08-21 11:52:54 : DEBUG : Validator : Validating : password(6-12)
+2018-08-21 11:52:54 : ERROR : DOLOGIN : login validator error message: None
+2018-08-21 11:52:54 : DEBUG : DOLOGIN : Establishing database connection..
+2018-08-21 11:52:54 : DEBUG : DOLOGIN : any_session_active:True
+2018-08-21 11:52:56 : DEBUG : DASHBOARD : At dashboard!
+2018-08-21 11:52:56 : DEBUG : DASHBOARD : In dashboard with active session..
+2018-08-21 11:52:56 : DEBUG : DASHBOARD : Establishing database connection..
+2018-08-21 11:52:56 : DEBUG : DASHBOARD : Welcoming user: arun123
+2018-08-21 11:53:05 : DEBUG : INDEX.py : At index.py!
+2018-08-21 11:53:06 : DEBUG : SHOW_REGISTER.py : At show_register.py!
+2018-08-21 11:53:06 : DEBUG : SHOW_REGISTER.py : Establishing database connection..
+2018-08-21 11:53:46 : DEBUG : DO_REGISTER : Trying to register new user..
+2018-08-21 11:53:46 : DEBUG : DO_REGISTER : Fetching form values..
+2018-08-21 11:53:46 : DEBUG : Validator : Validating : NishaKannan(4-15)
+2018-08-21 11:53:46 : DEBUG : Validator : Validating : ariya86(6-15)
+2018-08-21 11:53:46 : DEBUG : Validator : Validating : password(6-12)
+2018-08-21 11:53:46 : DEBUG : Validator : Validating : ICICI(3-10)
+2018-08-21 11:53:46 : DEBUG : Validator : Validating : Medavakkal(4-10)
+2018-08-21 11:53:46 : DEBUG : Validator : Validating : ICIC112233. Length must be 10 characters.
+2018-08-21 11:53:46 : ERROR : DO_REGISTER : Register validator error message: None
+2018-08-21 11:53:46 : DEBUG : Class Account : Constructor()
+2018-08-21 11:53:46 : DEBUG : Class Account : INSERT INTO ACCOUNT(ACC_NUMBER, NAME, BANK_NAME, BRANCH_NAME, IFSC_CODE, BALANCE) VALUES (100003, 'NishaKannan' , 'ICICI' , 'Medavakkal' ,'ICIC112233' , 0);
+2018-08-21 11:53:46 : DEBUG : Class Account : INSERT INTO USER (ACC_NUMBER, LOGIN_NAME, LOGIN_KEY) VALUES ( 100003, 'ariya86' , 'password' );
+2018-08-21 11:53:50 : DEBUG : INDEX.py : At index.py!
+2018-08-21 11:53:58 : DEBUG : DOLOGIN : Trying to login..
+2018-08-21 11:53:58 : DEBUG : DOLOGIN : Fetching form values..
+2018-08-21 11:53:58 : DEBUG : Validator : Validating : ariya86(6-15)
+2018-08-21 11:53:58 : DEBUG : Validator : Validating : password(6-12)
+2018-08-21 11:53:58 : ERROR : DOLOGIN : login validator error message: None
+2018-08-21 11:53:58 : DEBUG : DOLOGIN : Establishing database connection..
+2018-08-21 11:53:58 : DEBUG : DOLOGIN : any_session_active:True
+2018-08-21 11:53:59 : DEBUG : DASHBOARD : At dashboard!
+2018-08-21 11:53:59 : DEBUG : DASHBOARD : In dashboard with active session..
+2018-08-21 11:53:59 : DEBUG : DASHBOARD : Establishing database connection..
+2018-08-21 11:53:59 : DEBUG : DASHBOARD : Welcoming user: ariya86
+2018-08-21 11:54:09 : DEBUG : INDEX.py : At index.py!
+2018-08-21 11:54:12 : DEBUG : SHOW_REGISTER.py : At show_register.py!
+2018-08-21 11:54:12 : DEBUG : SHOW_REGISTER.py : Establishing database connection..
+2018-08-21 11:55:26 : DEBUG : INDEX.py : At index.py!
+2018-08-21 11:55:26 : DEBUG : INDEX.py : At index.py!
